@@ -1,4 +1,5 @@
 # 2026春季学期实践周实践报告
+
 ---
 ## 学习资源链接 
 
@@ -10,61 +11,61 @@
 ## 实践流程
 
 **1. 安装Git**
-    - 官网链接安装：[https://git-scm.com/install/windows](https://git-scm.com/install/windows)
-    - 启动setup文件，按提示安装
+- 官网链接安装：[https://git-scm.com/install/windows](https://git-scm.com/install/windows)
+- 启动setup文件，按提示安装
 
 **2. 创建远程代码仓库**
-    - 打开GitHub账号，创建一个新的仓库
-    - 仓库名称：Task2026
-    - 仓库描述：2026春季学期实践周项目
-    - 仓库设置：公开
-    - 仓库链接：<https://github.com/NOS-CC/Task2026>
+- 打开GitHub账号，创建一个新的仓库
+- 仓库名称：Task2026
+- 仓库描述：2026春季学期实践周项目
+- 仓库设置：公开
+- 仓库链接：<https://github.com/NOS-CC/Task2026>
 
 **3.  配置Git环境**
-    - 设置用户名`git config --global user.name "NOS-CC"` 
-    - 设置邮箱`git config --global user.email "nos1cc@qq.com"` 
-    - 验证配置`git config --list`
+- 设置用户名`git config --global user.name "NOS-CC"` 
+- 设置邮箱`git config --global user.email "nos1cc@qq.com"` 
+- 验证配置`git config --list`
 
 **4. 创建本地仓库**
-    - 创建本地目录`Task2026`
-    - 创建本地仓库`git init`
-    - 绑定本地仓库到远程仓库`git remote add origin https://github.com/NOS-CC/Task2026.git`
+- 创建本地目录`Task2026`
+- 创建本地仓库`git init`
+- 绑定本地仓库到远程仓库`git remote add origin https://github.com/NOS-CC/Task2026.git`
 
 **5. 获取PAT令牌**
-    - 进入Github账号设置
-    - 点击`Developer settings`
-    - 点击`Personal access tokens`
-    - 点击`Generate new token`
-    - 填写令牌描述，选择权限范围，点击`Generate token`
-    - 复制令牌，保存到安全的地方
+- 进入Github账号设置
+- 点击`Developer settings`
+- 点击`Personal access tokens`
+- 点击`Generate new token`
+- 填写令牌描述，选择权限范围，点击`Generate token`
+- 复制令牌，保存到安全的地方
 
 **6. 上传本地测试代码**
-    - 在本地目录Task2026下创建一个测试文件test.py并编写代码
-    - 暂存所有文件`git add *`
-    - 提交所有文件`git commit -m "first commit"`
-    - 推送所有文件到远程仓库`git push -u Task2026 main`
-    - 上传并提交修改记录，共3次
-        - 第一次提交：![1st](/commits/commit-1.png)
-        - 第二次提交：![2nd](/commits/commit-2.png)
-        - 第三次提交：![3rd](/commits/commit-3.png)
-        > 每次提交后都进行了push
+- 在本地目录Task2026下创建一个测试文件test.py并编写代码
+- 暂存所有文件`git add *`
+- 提交所有文件`git commit -m "first commit"`
+- 推送所有文件到远程仓库`git push -u Task2026 main`
+- 上传并提交修改记录，共3次
+    - 第一次提交：![1st](/commits/commit-1.png)
+    - 第二次提交：![2nd](/commits/commit-2.png)
+    - 第三次提交：![3rd](/commits/commit-3.png)
+    > 每次提交后都进行了push
 
 ---
 ## 提交说明
 
 **1. 提交测试代码与 README.md 文件**
-    - 提交`test.py`与`README.md`文件到远程仓库
-    - 提交信息：`first commit`
+- 提交`test.py`与`README.md`文件到远程仓库
+- 提交信息：`first commit`
 
 **2. 提交新增内容**
-    - 提交修改后的的代码
-    - 新增`commits`文件夹，存放每次提交的截图
-    - 提交信息：`2nd commit`
+- 提交修改后的的代码
+- 新增`commits`文件夹，存放每次提交的截图
+- 提交信息：`2nd commit`
 
 **3. 提交新增内容**
-    - 提交新增的代码
-    - 提交新增的截图到`commits`文件夹
-    - 提交信息：`3rd commit`
+- 提交新增的代码
+- 提交新增的截图到`commits`文件夹
+- 提交信息：`3rd commit`
 
 ---
 ## 遇到的问题与解决方法
